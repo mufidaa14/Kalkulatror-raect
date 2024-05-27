@@ -68,12 +68,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#FDD9E5',
   },
   displayText: {
-    fontSize: 40,
-    color: '#FFF',
+    fontSize: 65,
+    color: 'black',
+    
   },
   resultText: {
-    fontSize: 20,
-    color: '#888',
+    fontSize: 40,
+    color: 'black',
   },
   buttonsContainer: {
     flex: 2,
@@ -89,15 +90,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FEC2D6',
-    margin: 5,
-    marginBottom: 20,
+    margin: 15,
     padding: 5,
     height: 60,
     borderRadius: 40,
   },
   buttonText: {
     fontSize: 30,
-    color: '#282C34',
+    color: 'black',
     fontWeight: 'bold',
   },
 });
